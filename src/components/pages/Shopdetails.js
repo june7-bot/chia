@@ -12,8 +12,9 @@ class Shopdetails extends Component {
     return (
       <div
         style={{
-          height: "100vh",
+          minHeight: "100%",
           backgroundColor: "black",
+          backgroundAttachment: "fixed",
           backgroundImage:
             "url(" + process.env.PUBLIC_URL + "/assets/img/background/bg1.jpg)",
           color: "white",
